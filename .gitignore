@@ -1,0 +1,21 @@
+@'
+.env
+.env.*
+!.env.example
+!.env.*.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+logs/
+*.db
+*.sqlite
+.idea/
+.vscode/
+'@ | Set-Content backend\.gitignore
